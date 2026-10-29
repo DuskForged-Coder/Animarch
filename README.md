@@ -54,4 +54,4 @@ This project is for educational and practice purposes. Anime art and content rem
 
 ---
 
-Built with ❤️ for the anime community
+< Built with ❤️ for the anime community
