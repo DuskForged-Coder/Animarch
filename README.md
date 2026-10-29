@@ -1,22 +1,61 @@
+# Animarch
+
 <div align="center">
 <img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
 </div>
 
-# Run and deploy your AI Studio app
+## 📝 Description
 
-This contains everything you need to run your app locally.
+**Animarch** is an anime tracking and discovery app built with modern Android technologies. It allows users to browse recent anime episodes, view series details, and explore anime content with a beautiful UI.
 
-View your app in AI Studio: https://ai.studio/apps/86def795-6d54-417a-8119-612e54304cb2
+> ⚠️ **Important Notice**: This application is for **practice and learning purposes only**. It is not intended for production use. The codebase demonstrates Android development patterns, Compose UI, and API integration, but should not be used as a basis for a commercial application without significant modifications and proper licensing.
 
-## Run Locally
+## ✨ Features
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+- Browse recent anime episodes and series details
+- AI-powered chat assistance (Gemini AI integration)
+- Community features for anime discussions
+- Favoriting and watch history tracking
+- Beautiful otaku-themed UI with animated components
 
+## 📦 Technical Stack
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
-7. If you have already published your app in AI Studio, please [request upload key reset](https://support.google.com/googleplay/android-developer/answer/9842756#zippy=%2Crequest-an-upload-key-reset) in Google Play Console.
+- **Language**: Kotlin
+- **UI**: Jetpack Compose
+- **Architecture**: MVVM with Clean Architecture
+- **Networking**: Retrofit + Supabase
+- **Image Loading**: Coil
+- **Database**: Room + Supabase
+- **AI**: Gemini API
+
+## 👤 Attribution
+
+- **Anime Community**: This app was inspired by and designed for the global anime community. All anime content is gathered from public APIs (AniList, Anikoto) and is intended for fan consumption and discovery.
+
+- **Artist Making Anime**: Special thanks to all the incredible artists, animators, and studios who create the anime we love. This app is a tribute to your hard work and creativity.
+
+- **Backend Services**: Supabase for database and authentication services.
+
+- **AI Integration**: Google's Gemini API for intelligent anime recommendations and chat assistance.
+
+## 🚀 Getting Started
+
+**Prerequisites**:
+- Android Studio (latest version recommended)
+- Gemini API key (for AI features)
+- Supabase project (for backend)
+
+**Installation**:
+1. Open this project in Android Studio
+2. Create a `.env` file in the project root based on `.env.example`
+3. Set your `GEMINI_API_KEY` in the `.env` file
+4. Remove the debug signing config from `app/build.gradle.kts` if building for release
+5. Run the app on an emulator or physical device
+
+## 📜 License
+
+This project is for educational and practice purposes. Anime art and content remain the property of their respective creators and studios.
+
+---
+
+Built with ❤️ for the anime community
