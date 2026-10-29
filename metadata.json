@@ -1,0 +1,6 @@
+{
+  "name": "Animarch",
+  "description": "Watch recent anime episodes and series details with seamless player embedding. Powered by VYRON Entertainment, co-partner of ARYAVARX Technologies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
