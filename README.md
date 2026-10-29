@@ -1,9 +1,5 @@
 # Animarch
 
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
-
 ## 📝 Description
 
 **Animarch** is an anime tracking and discovery app built with modern Android technologies. It allows users to browse recent anime episodes, view series details, and explore anime content with a beautiful UI.
